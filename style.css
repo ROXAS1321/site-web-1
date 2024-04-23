@@ -1,0 +1,118 @@
+p,
+h1 {
+    color: royalblue;
+}
+
+.ma-classe {
+    color: black;
+}
+
+.ma-classe-2 {
+    color: deeppink;
+}
+
+p {
+    font-family:Arial, sans-serif ;
+    font-size: 2em;
+    font-style: italic;
+}
+
+h2 {
+    font-family: 'lobster', cursive;
+    font-size: 3em;
+    text-align: center;
+    color: rgba(220, 20, 60, 0.5);
+    background-color: blue;
+    background-image: url(fond.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    border: 2px solid darkblue;
+    border-radius: 10px 30px 0px 90px;
+    box-shadow: 6px 6px 15px rgb(29, 49, 63);
+    margin: auto;
+}
+
+.introduction {
+    font-weight: 700;
+}
+
+body {
+    background: linear-gradient(#fffbd5,#b20a2c)
+}
+
+.border {
+    border: 2px dotted purple
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+a:hover {
+    color: deeppink;
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration-color:blue; 
+}
+
+a:focus {
+    background-color: black;
+    color: white;
+    outline-color: purple;
+}
+
+img:hover + h2 {
+    color: purple;
+}
+
+p {
+    margin: 50px;
+    padding-top: 50px;
+    background-color: black;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 200px;
+}
+
+.conteneur {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    grid-template-rows: 150px 300px;
+    gap: 20px;
+}
+
+.one {
+    order: 3;
+    border: 2px solid darkblue; 
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+.two {
+    order: 1;
+    border: 2px solid darkblue;
+}
+
+.three {
+    order: 2;
+    border: 2px solid darkblue;
+}
+
+.four {
+    order: 2;
+    border: 2px solid darkblue;
+}
+
+.five {
+    order: 2;
+    border: 2px solid darkblue;
+}
+
+.six {
+    order: 2;
+    border: 2px solid darkblue;
+}
