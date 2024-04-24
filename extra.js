@@ -1,10 +1,10 @@
 
 
-    maBaliseDiv=document.getElementByld("jeu")
+    maBaliseDiv=document.getElementById("jeu")
     console.log(maBaliseDiv)
     // affiche ce qui est contenu dans la balise
 
-    let jeu=document.getElementByld("jeu")
+    let jeu=document.getElementById("jeu")
     jeu.addEventListener("click", function () {
         let body=document.querySelector("body")
         // On change la couleur de fond de la page
@@ -15,5 +15,9 @@
     monBouton.addEventListener("click", function () {
         console.log("Vous avez cliqué sur le bouton")
         let body=document.querySelector("body")
-        body.style.backgroudColor= "red"
+       if (body.style.background=== "purple") {
+        body.style.background="red"
+       }else {
+        body.style.background="purple"
+       }
     });
