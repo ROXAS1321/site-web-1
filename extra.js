@@ -14,5 +14,6 @@
     let monBouton = document.getElementById("monBouton");
     monBouton.addEventListener("click", function () {
         console.log("Vous avez cliqué sur le bouton")
+        let body=document.querySelector("body")
         body.style.backgroudColor= "red"
     });
