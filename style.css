@@ -132,3 +132,7 @@ td {
 table {
     border-collapse: collapse;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
